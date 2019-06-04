@@ -34,22 +34,23 @@ This repo relies on the following third-party projects:
 ####  平台支持
 V2Ray 在以下平台中可用：
 
-Windows 7 及之后版本（x86 / amd64）；
-Mac OS X 10.10 Yosemite 及之后版本（amd64）；
-Linux 2.6.23 及之后版本（x86 / amd64 / arm / arm64 / mips64 / mips）；
-包括但不限于 Debian 7 / 8、Ubuntu 12.04 / 14.04 及后续版本、CentOS 6 / 7、Arch Linux；
-FreeBSD (x86 / amd64)；
-OpenBSD (x86 / amd64)；
-Dragonfly BSD (amd64)；
+* Windows 7 及之后版本（x86 / amd64）；
+* Mac OS X 10.10 Yosemite 及之后版本（amd64）；
+* Linux 2.6.23 及之后版本（x86 / amd64 / arm / arm64 / mips64 / mips）；
+* 包括但不限于 Debian 7 / 8、Ubuntu 12.04 / 14.04 及后续版本、CentOS 6 / 7、Arch Linux；
+* FreeBSD (x86 / amd64)；
+* OpenBSD (x86 / amd64)；
+* Dragonfly BSD (amd64)；
+
 下载 V2Ray
 预编译的压缩包可以在如下几个站点找到：
 
-Github Release: github.com/v2ray/v2ray-core
-Github 分流: github.com/v2ray/dist
-Homebrew: github.com/v2ray/homebrew-v2ray
-Arch Linux: packages/community/x86_64/v2ray/
-Snapcraft: snapcraft.io/v2ray-core
-压缩包均为 zip 格式，找到对应平台的压缩包，下载解压即可使用。
+* Github Release: https://github.com/v2ray/v2ray-core/releases
+* Github 分流: https://github.com/v2ray/dist/
+* Homebrew: https://github.com/v2ray/homebrew-v2ray
+* Arch Linux: https://www.archlinux.org/packages/community/x86_64/v2ray/
+* Snapcraft: https://snapcraft.io/v2ray-core
+*压缩包均为 zip 格式，找到对应平台的压缩包，下载解压即可使用。
 
 验证安装包
 V2Ray 提供两种验证方式：
