@@ -50,7 +50,8 @@ V2Ray 在以下平台中可用：
 * Homebrew: https://github.com/v2ray/homebrew-v2ray
 * Arch Linux: https://www.archlinux.org/packages/community/x86_64/v2ray/
 * Snapcraft: https://snapcraft.io/v2ray-core
-*压缩包均为 zip 格式，找到对应平台的压缩包，下载解压即可使用。
+
+压缩包均为 zip 格式，找到对应平台的压缩包，下载解压即可使用。
 
 验证安装包
 V2Ray 提供两种验证方式：
