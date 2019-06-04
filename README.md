@@ -102,6 +102,7 @@ go.sh 支持如下参数，可在手动安装时根据实际情况调整：
 
 使用地址为 127.0.0.1:1080 的 SOCKS 代理下载并安装最新版本：./go.sh -p socks5://127.0.0.1:1080
 安装本地的 v1.13 版本：./go.sh --version v1.13 --local /path/to/v2ray.zip
+```
 
 ####  Docker
 V2Ray 提供了两个预编译的 Docker image：
