@@ -108,6 +108,7 @@ go.sh 支持如下参数，可在手动安装时根据实际情况调整：
 V2Ray 提供了两个预编译的 Docker image：
 
 [v2ray/official](https://hub.docker.com/r/v2ray/official/): 包含最新发布的版本，每周跟随新版本更新；
+</br>
 [v2ray/dev](https://hub.docker.com/r/v2ray/dev/): 包含由最新的代码编译而成的程序文件，随代码库更新；
 两个 image 的文件结构相同：
 
