@@ -1,3 +1,5 @@
+// +build !confonly
+
 package vmess
 
 import (
@@ -147,7 +149,7 @@ func (v *TimedUserValidator) Remove(email string) bool {
 	email = strings.ToLower(email)
 	idx := -1
 	for i, u := range v.users {
-		if strings.ToLower(u.user.Email) == email {
+		if strings.EqualFold(u.user.Email, email) {
 			idx = i
 			break
 		}
@@ -156,11 +158,11 @@ func (v *TimedUserValidator) Remove(email string) bool {
 		return false
 	}
 	ulen := len(v.users)
-	if idx < ulen {
-		v.users[idx] = v.users[ulen-1]
-		v.users[ulen-1] = nil
-		v.users = v.users[:ulen-1]
-	}
+
+	v.users[idx] = v.users[ulen-1]
+	v.users[ulen-1] = nil
+	v.users = v.users[:ulen-1]
+
 	return true
 }
 
